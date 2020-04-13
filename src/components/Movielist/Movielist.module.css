@@ -1,0 +1,67 @@
+.movie {
+    height : 250px ;
+    max-width : 200px;
+    border : 50% solid #9b9b9b;
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    z-index: 100;
+    box-shadow: 2px 2px 2px 2px #9b9b9b;
+    flex-wrap: wrap;
+
+    
+}
+
+.movie img{
+    height :70%;
+    width : 100%;
+    border-radius: 5%;
+
+}
+
+.characters
+{
+    width:100%;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1000; 
+    
+}
+
+.characters .title{
+font-size: 70%;
+font-family: "Times New Roman";
+margin: 2%;
+text-align: left
+
+}
+
+.overview{
+font-size: 65%;
+font-family: "Times New Roman";
+margin: 2%;
+text-align: left;
+
+}
+
+.spacer{
+    margin-top: 20%;
+    margin-left: 5%;
+
+}
+.page-item.active .page-link {
+   
+    background-color: #9b9b9b !important;
+    border-color: #9b9b9b !important;
+}
+
+@media(min-width : 500px){
+
+    
+    
+
+};
+
+

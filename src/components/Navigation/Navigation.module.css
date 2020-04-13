@@ -1,0 +1,18 @@
+.Navigation
+{
+    width:100%;
+    height:50px;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    border:1px solid grey;
+    z-index: 1000;
+    
+
+}
+.fa{
+    margin: 10px !important;
+    
+    color: grey !important;
+}

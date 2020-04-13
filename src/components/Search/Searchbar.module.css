@@ -1,0 +1,70 @@
+form input {
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #DFDFDF;
+    margin: 5px;
+    padding-left: 3.375rem;
+}
+form i{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #9b9b9b;
+    margin:1%;
+}
+
+@media  (max-width: 768px) { 
+    /* for 10 inches tablet screens */
+    form input {
+        width: 350px;
+    }
+  } 
+
+  @media  (max-width: 480px) { 
+    /* for 10 inches tablet screens */
+    form input {
+        width: 200px;
+    }
+  } 
+
+  @media  (max-width: 1200px) { 
+    /* for 10 inches tablet screens */
+    form i{
+       
+        margin:1.5%;
+    }
+    
+  } 
+
+  @media  (max-width: 862px) { 
+    /* for 10 inches tablet screens */
+    form i{
+       
+        margin:1.75%;
+    }
+    
+  } 
+
+  @media  (max-width: 770px) { 
+    /* for 10 inches tablet screens */
+    form i{
+       
+        margin:2%;
+    }
+    
+  } 
+
+  @media  (max-width: 500px) { 
+    /* for 10 inches tablet screens */
+    form i{
+       
+        margin:3%;
+    }
+    
+  } 

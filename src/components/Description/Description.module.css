@@ -1,0 +1,31 @@
+
+.Navi
+{
+    width:100%;
+    height:50px;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1000;
+    
+
+}
+
+.movie {
+    height : 250px ;
+    width : 200px;
+    
+    z-index: 100;
+    box-shadow: 2px 2px 2px 2px #7c1b1b;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.Navi img{
+    height :200px;
+    border-radius: 10px;
+    margin : 10px
+
+}
